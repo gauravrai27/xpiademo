@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    user_text = request.args.get('text', '')
+    user_text = request.args.get('q', '')
     html = f"""
     <html>
         <head><title>Text Display</title></head>
