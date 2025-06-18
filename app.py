@@ -65,7 +65,7 @@ def image_page():
         <body>
             <div class="container">
                 <h1>Image Gallery</h1>
-                <img src="{{ url_for('static', filename='images/heck.png') }}" alt="Heck Image" />
+                <img src="{{ url_for('static', filename='images/heck.jpg') }}" alt="Heck Image" />
                 <p style="margin-top: 20px;">
                     <a href="/" class="nav-link">← Back to Home</a>
                 </p>
