@@ -23,6 +23,7 @@ def home():
 
 @app.route('/image-page')
 def image_page():
+    user_text = request.args.get('q', '')
     html = """
     <html>
         <head>
